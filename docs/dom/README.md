@@ -1,5 +1,8 @@
 #   文档对象 DOM
 
+## 设置浏览器文档的标题
+<<< ./tpl/dom/setTitle.js
+
 ## 判断当前位置是否为页面底部
 
 - 返回值为true/false
