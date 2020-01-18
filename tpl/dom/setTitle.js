@@ -6,6 +6,7 @@
 export function setDocumentTitle(title, callBack=()=>{}){
     document.title = title
     if(typeof callBack === 'function'){
+        // 例如h5与app交互 改变title发送消息给app
         callBack()
     }
 }

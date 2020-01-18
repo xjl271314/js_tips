@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'useful js tools',
+  title: 'JavaScript Tools',
   description: '常用的js方法工具',
   dest: './dist',
   base: '/js_tricks/',
-  repo: 'https://qishaoxuan.github.io/js_tricks/',
+  repo: '',
   head: [
     ['link', { rel: 'icon', href: `/images/favicon.png` }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
@@ -23,9 +23,9 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'css tricks', link: 'https://qishaoxuan.github.io/css_tricks/' },
-      { text: 'blog', link: 'https://qishaoxuan.github.io/blog/' },
-      { text: 'GitHub', link: 'https://github.com/QiShaoXuan/js_tricks' },
+      { text: 'css tricks', link: '' },
+      { text: 'blog', link: '' },
+      { text: 'GitHub', link: '' },
     ],
     sidebar: [
       '/dom/',
@@ -34,7 +34,9 @@ module.exports = {
       '/array/',
       '/date/',
       '/number/',
-      '/cookie/'
+      '/cookie/',
+      '/script/',
+      '/styles/'
     ]
   }
 }
