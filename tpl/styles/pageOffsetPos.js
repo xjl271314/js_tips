@@ -25,3 +25,12 @@ export function getElementPageOffsetTop(el){
     } 
     return actualTop;
 }
+/**
+ * 获取元素的大小，位置等信息 存在兼容性
+ * https://developer.mozilla.org/zh-CN/docs/Web/API/Element/getBoundingClientRect
+ * @param {htmlElement} el 要获取的html元素
+ */
+export function getElementBoundingClientRect(el){
+    // x、y、width、height、top、left、right、bottom
+    return el.getBoundingClientRect();
+}
