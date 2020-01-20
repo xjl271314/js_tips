@@ -35,6 +35,7 @@ module.exports = {
       '/date/',
       '/number/',
       '/cookie/',
+      '/copy/',
       '/script/',
       '/styles/'
     ]
