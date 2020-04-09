@@ -4,6 +4,9 @@
 
 <<< ./tpl/array/noRepeat.js
 
+## 数组对象去重
+<<< ./tpl/array/noRepeatObj.js
+
 ## 查找数组最大
 
 <<< ./tpl/array/arrayMax.js
@@ -12,7 +15,7 @@
 
 <<< ./tpl/array/arrayMin.js
 
-## 返回已size为长度的数组分割的原数组
+## 返回已size为长度的分割后的数组
 
 <<< ./tpl/array/chunk.js
 
@@ -62,3 +65,8 @@
 ## 数组乱排
 
 <<< ./tpl/array/shuffle.js
+
+## 数组reduce的高级用法
+
+<<< ./tpl/array/reduce.js
+
