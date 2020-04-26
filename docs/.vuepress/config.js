@@ -32,6 +32,7 @@ module.exports = {
       '/bom/',
       '/type/',
       '/array/',
+      '/string/',
       '/object/',
       '/date/',
       '/number/',

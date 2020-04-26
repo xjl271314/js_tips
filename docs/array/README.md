@@ -66,6 +66,10 @@
 
 <<< ./tpl/array/shuffle.js
 
+## 过滤数组中的控制
+
+<<< ./tpl/array/filterEmpty.js
+
 ## 数组reduce的高级用法
 
 <<< ./tpl/array/reduce.js
