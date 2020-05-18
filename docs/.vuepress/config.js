@@ -34,12 +34,15 @@ module.exports = {
       '/array/',
       '/string/',
       '/object/',
+      '/function/',
       '/date/',
       '/number/',
       '/cookie/',
       '/copy/',
       '/script/',
-      '/styles/'
+      '/styles/',
+      '/file/',
+      '/other/'
     ]
   }
 }

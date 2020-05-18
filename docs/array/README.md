@@ -66,11 +66,15 @@
 
 <<< ./tpl/array/shuffle.js
 
-## 过滤数组中的控制
+## 过滤数组中的无效值
 
 <<< ./tpl/array/filterEmpty.js
 
 ## 数组reduce的高级用法
 
 <<< ./tpl/array/reduce.js
+
+## 判断数组中的元素是否都相等
+
+<<< ./tpl/array/allEqual.js
 

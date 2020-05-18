@@ -27,3 +27,21 @@ params.has("young"); // true
 params.get("sex"); // "male"
 
 ```
+
+## 首字母转成大写
+
+```js
+const capitalize = ([first, ...rest]) => first.toUpperCase() + rest.join('');
+  
+capitalize('fooBar'); // 'FooBar'
+capitalize('fooBar', true); // 'FooBar'
+```
+
+## 每个单词首字母转换成大写字母
+
+```js
+const capitalizeEveryWord = str => str.replace(/\b[a-z]/g, char => char.toUpperCase());
+
+capitalizeEveryWord('hello world!'); // 'Hello World!'
+
+```
