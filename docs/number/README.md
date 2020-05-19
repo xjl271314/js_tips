@@ -7,3 +7,7 @@
 ## 生成随机数
 
 <<< ./tpl/number/random.js
+
+## 大整数加法
+
+<<< ./tpl/number/bigAdd.js
