@@ -25,5 +25,5 @@
 <<< ./tpl/dom/fullscreenExit.js
 
 ## 全屏事件
-<<< ./tpl/dom/fullscreenchange.js
+<!-- <<< ./tpl/dom/fullscreenchange.js -->
 
