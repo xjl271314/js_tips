@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
   title: 'JavaScript Tools',
   description: '常用的js方法工具',
@@ -21,6 +23,18 @@ module.exports = {
       md.use(require('markdown-it-include'), './')
     }
   },
+  plugins: [
+    require('./plugins/copy/index.js'),
+    '@vuepress/back-to-top',
+    '@vuepress/active-header-links',
+    ['@vuepress/last-updated',{
+      transformer: (timestamp, lang) => {
+        moment.locale(lang)
+        return moment(timestamp).format('YYYY-MM-DD HH:mm:SS')
+      }
+    }],
+    ['@vuepress/register-components'],
+  ],
   themeConfig: {
     nav: [
       { text: 'css tricks', link: '' },
@@ -43,7 +57,17 @@ module.exports = {
       '/styles/',
       '/file/',
       '/other/'
-    ]
+    ],
+    lastUpdated: '上次更新时间' ,
+    // 假定 GitHub。也可以是一个完整的 GitLab 网址
+    repo: 'https://github.com/xjl271314/js-tips',
+    // 如果你的文档不在仓库的根部
+    // docsDir: 'docs',
+    // 可选，默认为 master
+    docsBranch: 'master',
+    // 默认为 true，设置为 false 来禁用
+    editLinks: false,
+    smoothScroll: true
   }
 }
 
