@@ -8,6 +8,7 @@ module.exports = {
   repo: '',
   head: [
     ['link', { rel: 'icon', href: `/images/favicon.png` }],
+    ["link", { rel: "stylesheet", href: "https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
