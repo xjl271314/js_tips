@@ -2,7 +2,7 @@ module.exports = {
   title: 'JavaScript Tools',
   description: '常用的js方法工具',
   dest: './dist',
-  base: '/js_tricks/',
+  base: '/js_tips/',
   repo: '',
   head: [
     ['link', { rel: 'icon', href: `/images/favicon.png` }],
@@ -24,8 +24,8 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'css tricks', link: '' },
-      { text: 'blog', link: '' },
-      { text: 'GitHub', link: '' },
+      { text: 'blog', link: 'https://xjl271314.github.io/docs' },
+      { text: 'GitHub', link: 'https://github.com/xjl271314/js-tips' },
     ],
     sidebar: [
       '/dom/',
