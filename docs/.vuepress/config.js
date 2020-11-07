@@ -13,9 +13,9 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileColor', content: '#00adb5' }],
-    ['meta', {name:'description', itemprop: 'description', content: '常用的js方法，js_tricks' }],
-    ['meta', { itemprop: 'name', content: 'js_trick' }],
-    ['meta', { itemprop: 'image', content: '/js_tricks/images/favicon.png' }],
+    ['meta', {name:'description', itemprop: 'description', content: '常用的js方法，js_tips' }],
+    ['meta', { itemprop: 'name', content: 'js_tips' }],
+    ['meta', { itemprop: 'image', content: '/js_tips/images/favicon.png' }],
   ],
   markdown: {
     anchor: { permalink: false },
